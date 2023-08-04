@@ -6,8 +6,8 @@ node {
    }
    
    stage ('build the packages') {
-      // mvn package
-	  sh 'mvn package'
+      // mvn compile
+	  sh 'mvn compile'
    }
 
    
