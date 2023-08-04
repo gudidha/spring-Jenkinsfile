@@ -2,7 +2,7 @@ node {
 
    stage('SCM') {
       // git clone
-	  git 'https://github.com/gudidha/spring-Jenkinsfile.git'
+	  git 'https://github.com/gudidha/spring-petclinic.git'
    }
    
    stage ('build the packages') {
